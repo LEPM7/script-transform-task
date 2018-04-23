@@ -1,0 +1,165 @@
+{
+  "id": "quiz-customer-profile-00-key",
+  "keys": {
+    "kp01_01": {
+      "operation": "cp01_01",
+      "answer_score": {
+        "answered": "0.05",
+        "not_answered": "0"
+      }
+    },
+    "kp02_01": {
+      "operation": "cp02_01",
+      "answer_score": {
+        "answered": "0.05",
+        "not_answered": "0"
+      }
+    },
+    "kp03_01": {
+      "operation": "cp03_01",
+      "answer_score": {
+        "answered": "0",
+        "not_answered": "0"
+      }
+    },
+    "kp04_01": {
+      "operation": "cp04_01",
+      "answer_score": {
+        "answered": "0.05",
+        "not_answered": "0"
+      }
+    },
+    "kp05_01": {
+      "operation": "cp05_01",
+      "answer_score": {
+        "answered": "0.05",
+        "not_answered": "0"
+      }
+    },
+    "kp06_01": {
+      "operation": "cp06_01",
+      "answer_score": {
+        "true": "0.2",
+        "false": "0"
+      }
+    },
+    "kp07_01": {
+      "operation": "cp07_01",
+      "answer_score": {
+        "true": "0.2",
+        "false": "0"
+      }
+    },
+    "kp08_01": {
+      "operation": "cp09_01",
+      "answer_score": {
+        "own-home": "0.5",
+        "rented-home": "0.25",
+        "family-home": "0.15"
+      }
+    },
+    "kp09_01": {
+      "operation": "cp10_01",
+      "answer_score": {
+        "1-2": "0.09",
+        "3-4": "0.15",
+        ">5": "0.3"
+      }
+    },
+    "kp10_01": {
+      "operation": "cp11_01",
+      "answer_score": {
+        "1-2": "0.3",
+        "3-4": "0.15",
+        ">5": "0.09"
+      }
+    },
+    "kp11_01": {
+      "operation": "cp12_01",
+      "answer_score": {
+        "1": "0.2",
+        "2": "0.3",
+        "3": "0.4",
+        ">4": "0.5"
+      }
+    },
+    "kp12_01": {
+      "operation": "cp13_01",
+      "answer_score": {
+        "permanent-public": "0.7",
+        "permanent-private": "0.7",
+        "permanent-agriculture": "0.7",
+        "seasonal-agriculture": "0.35",
+        "self-employed-agriculture": "0.35"
+      }
+    },
+    "kp13_01": {
+      "operation": "cp14_01",
+      "answer_score": {
+        "lt-1000": "0.16",
+        "1000-2000": "0.24",
+        "2001-2500": "0.4",
+        "2501-3500": "0.48",
+        "3501-4000": "0.64",
+        "gt-4000": "0.8"
+      }
+    },
+    "kp14_01": {
+      "operation": "cp15_01",
+      "answer_score": {
+        "lt-1000": "0.16",
+        "1000-2000": "0.24",
+        "2001-2500": "0.4",
+        "2501-3500": "0.48",
+        "3501-4000": "0.64",
+        "gt-4000": "0.8"
+      }
+    },
+    "kp15_01": {
+      "operation": "cp16_01",
+      "answer_score": {
+        "1": "0.4",
+        "2": "0.6",
+        "3": "0.8",
+        ">4": "1"
+      }
+    },
+    "kp16_01": {
+      "operation": "cp17_01 * cp18_01",
+      "answer_score": {
+        "0-8": "0",
+        "8-20": "0.8",
+        "21-35": "1.2",
+        "36-45": "1.6",
+        ">45": "2"
+      }
+    },
+    "kp17_01": {
+      "operation": "cp19_01",
+      "answer_score": {
+        "candles": "0.5",
+        "solar-system": "0.25",
+        "generator": "0.15"
+      }
+    },
+    "kp18_01": {
+      "operation": "cp20_01 * cp21_01",
+      "answer_score": {
+        "1-30": "0.8",
+        "31-60": "1.2",
+        "61-90": "1.6",
+        ">90": "2"
+      }
+    },
+    "kp19_01": {
+      "operation": "cp22_01 * cp23_01 + cp24_01 + cp25_01",
+      "answer_score": {
+        "0-300": "0",
+        "300-500": "0.6",
+        "501-800": "1",
+        "801-1000": "2",
+        ">1000": "2"
+      }
+    }
+  }
+}
