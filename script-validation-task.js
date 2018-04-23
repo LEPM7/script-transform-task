@@ -23,7 +23,7 @@ module.exports = function (quiz, answers,debug) {
       if (object.answer_score[resultOperation]) {
         calification += parseFloat(object.answer_score[resultOperation]);
         if(debug) console.log(parseFloat(object.answer_score[resultOperation]));
-      } else if (isRange(object)) {
+      } else if (isRange(object) && !isNaN(resultOperation)) {
         let getKey = Object.keys(object.answer_score).find(key => {
           let arr = key.match(/[0-9]+/g).sort(function (a, b) {
             return parseInt(a) > parseInt(b);
